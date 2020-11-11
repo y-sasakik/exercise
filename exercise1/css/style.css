@@ -1,0 +1,146 @@
+body {
+  -webkit-print-color-adjust: exact;
+}
+
+.wrapper {
+padding: 0px 10% ;
+  background: #f6e8ce !important;
+  margin: 0 auto;
+}
+
+header{
+  background-image: url("../images/mainimg.jpg") ;
+text-align: center;
+background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5%;
+}
+  header h1{
+    margin:5%;
+  color: white;
+  font-weight: bold;
+  font-size: 400%;
+  font-family :Quicksand,serif;
+  }
+
+  header p{
+    margin:5%;
+        font-family: sans-serif;
+          color:#A4A3A8;
+          font-size: 200%;
+  }
+
+.container {
+  display: flex;
+  background: #F2F2F2 !important;
+}
+.main {
+    padding:2%;
+  display: flex;
+  flex-direction: column;
+}
+.main h1{
+  padding: 2%;
+  font-size: 150%;
+  font-family:serif;
+  color:#90BCAF;
+  border-bottom:solid #D9DD89 3px;
+}
+.recipe{
+  display: flex;
+}
+.subimg{
+  margin:1%;
+}
+
+.recipe-text{
+  margin:1%;
+  text-align: left;
+}
+.recipe-text li{
+  padding: 5px;
+}
+
+.side {
+  width: 45%;
+  padding: 2%;
+}
+  .side h2{
+    padding: 10px;
+    font-size: 120%;
+    font-family :Quicksand,serif;
+    color: white;
+background: #F49B7B !important;
+  }
+
+a{text-decoration: none;}
+
+#footer {
+  background:#639C95 !important;
+  width: 100%;
+  border-top: solid 10px 	#94B985;
+  padding: 5% 0 5% 0;
+}
+#footer p{
+  text-align: center;
+}
+#footer small{
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px){
+  .wrapper, .container,.recipe{
+    flex-direction: column;
+  }
+  .wrapper {
+    padding: 0;
+  }
+
+  header {
+    background-image: url(../images/mainimg2.jpg);
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+  padding: 45% 0;
+}
+
+  header h1{
+    margin-top:30%;
+    margin:5%;
+  font-size: 200%;
+  font-family :Quicksand,serif;
+  }
+
+  header p{
+          color:black;
+          font-size: 100%;
+  }
+  .side{
+    width:100%;
+  }
+
+  .subimg{
+    margin:0;
+  }
+
+  .subimg img{
+    width: 100%;
+  }
+
+  .side a{
+      width: 100%;
+      color: black;
+      font-size: 80%;
+display: block;
+border-top: solid #C0C0C0 0.1px;
+border-bottom: solid #C0C0C0 0.1px;
+padding: 2%;
+  }
+  a::after {
+    color: #C0C0C0;
+  content: ">";
+  float: right;
+}
+
+
+}
