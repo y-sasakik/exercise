@@ -54,7 +54,7 @@ background-repeat: no-repeat;
 }
 
 .recipe-text{
-  margin:8% 1% 1% 1%;
+  margin:5% 1% 1% 1%;
   text-align: left;
 }
 .recipe-text li{
@@ -125,6 +125,7 @@ background: #F49B7B !important;
   .subimg img{
     width: 100%;
   }
+  .recipe-text{margin-top: 15%;}
 
   .side a{
       width: 100%;
