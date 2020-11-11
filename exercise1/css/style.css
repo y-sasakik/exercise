@@ -43,7 +43,7 @@ background-repeat: no-repeat;
   padding: 2%;
   font-size: 150%;
   font-family:serif;
-  color:#90BCAF;
+  color:#00FF00;
   border-bottom:solid #D9DD89 3px;
 }
 .recipe{
@@ -54,7 +54,7 @@ background-repeat: no-repeat;
 }
 
 .recipe-text{
-  margin:1%;
+  margin:5% 1% 1% 1%;
   text-align: left;
 }
 .recipe-text li{
@@ -129,11 +129,11 @@ background: #F49B7B !important;
   .side a{
       width: 100%;
       color: black;
-      font-size: 80%;
+      font-size: 120%;
 display: block;
 border-top: solid #C0C0C0 0.1px;
 border-bottom: solid #C0C0C0 0.1px;
-padding: 3%;
+padding: 5%;
 text-decoration: none;
   }
   .side li{padding:0;}
