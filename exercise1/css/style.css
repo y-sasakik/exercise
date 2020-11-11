@@ -72,9 +72,8 @@ background-repeat: no-repeat;
     color: white;
 background: #F49B7B !important;
   }
-  .side li{
-    padding: 8px;
-  }
+
+a{text-decoration: none;}
 
 #footer {
   background:#639C95 !important;
@@ -131,11 +130,17 @@ background: #F49B7B !important;
   .side a{
       width: 100%;
       color: black;
+      font-size: 80%;
 display: block;
-border: solid blue 3px;
-background-color:#C0C0C0;
+border-top: solid #C0C0C0 0.1px;
+border-bottom: solid #C0C0C0 0.1px;
 padding: 2%;
   }
+  a::after {
+    color: #C0C0C0;
+  content: ">";
+  float: right;
+}
 
 
 }
