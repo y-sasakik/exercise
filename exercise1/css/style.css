@@ -61,7 +61,7 @@ background-repeat: no-repeat;
 
 .side {
   width: 45%;
-margin-top:3%;
+margin-top:1%;
 }
   .side h2{
     padding: 2%;
@@ -119,7 +119,7 @@ background: #F49B7B !important;
 
   .subimg img{    width: 100%;}
 
-  .recipe-text{margin-top: 10%;}
+  .recipe-text{margin-top: 5%;}
 
   .main h1{margin:1% auto 3% auto;
   font-size:100%; }
