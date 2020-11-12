@@ -61,7 +61,7 @@ background-repeat: no-repeat;
 
 .side {
   width: 45%;
-margin:3%;
+margin-top:3%;
 }
   .side h2{
     padding: 2%;
@@ -71,6 +71,7 @@ margin:3%;
 background: #F49B7B !important;
   }
   .side li{margin:2%;}
+
   a::before{content: "■"}
 
 #footer {
@@ -120,7 +121,8 @@ background: #F49B7B !important;
 
   .recipe-text{margin-top: 10%;}
 
-  .main h1{margin:1% auto 3% auto;}
+  .main h1{margin:1% auto 3% auto;
+  font-size:100%; }
   .recipe{margin-top: 3%;}
   .side h2{padding: 5%;}
   .side li{margin:0;}
