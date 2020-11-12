@@ -39,9 +39,10 @@ background-repeat: no-repeat;
   flex-direction: column;
 }
 .main h1{
-  padding:2%;
-  font-size: 150%;
+  padding:2% 0;
+  font-size: 170%;
   font-family:serif;
+      text-align: center;
   color:#639C95;
     font-weight: bold;
   border-bottom:solid #D9DD89 3px;
@@ -119,10 +120,13 @@ background: #F49B7B !important;
 
   .subimg img{    width: 100%;}
 
-  .recipe-text{margin-top: 5%;}
+  .recipe-text{margin-top: 7%;}
 
-  .main h1{margin:1% auto 3% auto;
-  font-size:100%; }
+  .main h1{
+  margin:1% 0 3% 0;
+  font-size:100%;
+border-bottom:none;
+}
   .recipe{margin-top: 3%;}
   .side h2{padding: 5%;}
   .side li{margin:0;}
