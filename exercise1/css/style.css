@@ -17,16 +17,16 @@ background-repeat: no-repeat;
 }
   header h1{
     margin:5%;
-  color: white;
+  color:#639C95;
   font-weight: bold;
   font-size: 400%;
   font-family :Quicksand,serif;
   }
 
   header p{
+      color:black;
     margin:5%;
         font-family: sans-serif;
-          color:#A4A3A8;
           font-size: 200%;
   }
 
@@ -40,39 +40,41 @@ background-repeat: no-repeat;
   flex-direction: column;
 }
 .main h1{
-  padding: 2%;
+  padding:2%;
   font-size: 150%;
   font-family:serif;
-  color:#00FF00;
+  color:#639C95;
+    font-weight: bold;
   border-bottom:solid #D9DD89 3px;
 }
 .recipe{
   display: flex;
 }
-.subimg{
-  margin:1%;
-}
+.subimg{  margin:1%;}
+
+.recipe{margin: 2%;}
 
 .recipe-text{
-  margin:5% 1% 1% 1%;
+  margin:1%;
   text-align: left;
 }
 .recipe-text li{
-  padding: 5px;
+  padding: 1.5%;
 }
 
 .side {
   width: 45%;
-  padding: 2%;
+margin:3%;
 }
   .side h2{
-    padding: 10px;
+    padding: 2%;
     font-size: 120%;
     font-family :Quicksand,serif;
     color: white;
 background: #F49B7B !important;
   }
-  .side li{padding: 2%;}
+  .side li{margin:2%;}
+  a::before{content: "■"}
 
 #footer {
   background:#639C95 !important;
@@ -88,7 +90,7 @@ background: #F49B7B !important;
 }
 
 @media (max-width: 600px){
-  .wrapper, .container,.recipe{
+  .wrapper, .container,.recipe,.main{
     flex-direction: column;
   }
   .wrapper {
@@ -110,24 +112,21 @@ background: #F49B7B !important;
   font-family :Quicksand,serif;
   }
 
-  header p{
-          color:black;
-          font-size: 100%;
-  }
-  .side{
-    width:100%;
-  }
+  header p{ font-size: 120%;
+      font-weight: bold;}
 
-  .subimg{
-    margin:0;
-  }
+  .side{    width:100%;}
 
-  .subimg img{
-    width: 100%;
-  }
-  .recipe-text{margin-top: 15%;}
+  .subimg{    margin:0;}
 
-  .side a{
+  .subimg img{    width: 100%;}
+
+  .recipe-text{margin-top: 10%;}
+
+  .main h1{padding: 7%;}
+  .side li{padding:0;}
+
+a{
       width: 100%;
       color: black;
       font-size: 120%;
@@ -137,7 +136,8 @@ border-bottom: solid #C0C0C0 0.1px;
 padding: 5%;
 text-decoration: none;
   }
-  .side li{padding:0;}
+
+  a::before{content:none;}
   a::after {
     color: #C0C0C0;
   content: ">";
