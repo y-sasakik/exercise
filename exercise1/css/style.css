@@ -63,7 +63,7 @@ background-repeat: no-repeat;
 .side {
   width: 45%;
 margin-top:1%;
-padding: 1%;
+padding: 3%;
 }
   .side h2{
     padding: 4%;
@@ -126,8 +126,8 @@ background: #F49B7B !important;
   .recipe-text{margin-top: 7%;}
 
   .main h1{
-  margin:1% 0 3% 0;
-  font-size:120%;
+  margin:1% 0 4% 0;
+  font-size:100%;
     font-family:serif;
 }
   .recipe{margin-top: 3%;}
