@@ -35,17 +35,18 @@ background-repeat: no-repeat;
   background: #F2F2F2 !important;
 }
 .main {
-    padding:1%;
+    padding:3%;
   flex-direction: column;
 }
 .main h1{
   padding:2% 0;
-  font-size: 150%;
+  font-size: 165%;
   font-family:serif;
       text-align: left;
   color:#639C95;
     font-weight: bold;
-  border-bottom:solid #D9DD89 3px;
+  border-bottom:solid #D9DD89 3px;]
+  margin-bottom: 3%;
 }
 .recipe{margin: 2%;
   display: flex;
@@ -62,17 +63,22 @@ background-repeat: no-repeat;
 
 .side {
   width: 45%;
-margin-top:1%;
-padding: 3%;
+margin-top:3%;
+padding: 0 3% 3% 3%;
 }
   .side h2{
-    padding: 4%;
+    padding: 7% 5%;
     font-size: 120%;
     font-family :Quicksand,serif;
     color: white;
 background: #F49B7B !important;
   }
-  .side li{margin:5%;}
+  .side li{margin:7% 0% 7% 6%;}
+
+  .recipe-text {
+      margin: 0 0 0 2%;
+      text-align: left;
+  }
 
   a::before{content: "■"}
 
@@ -108,13 +114,18 @@ background: #F49B7B !important;
   header h1{
     margin-top:30%;
     margin:5%;
-  font-size: 200%;
+  font-size: 215%;
   font-family :Quicksand,serif;
   }
 
   header p{ font-size: 100%;
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
+}
+
+.main {
+    padding: 0 2%;
+
 }
 
   .side{    width:100%;}
@@ -126,13 +137,33 @@ background: #F49B7B !important;
   .recipe-text{margin-top: 7%;}
 
   .main h1{
-  margin:1% 0 4% 0;
-  font-size:100%;
+  margin:3% 0 3% 0;
+  font-size:105%;
     font-family:serif;
+    padding: 0;
 }
-  .recipe{margin-top: 3%;}
+  .recipe{margin: 0;
+    display: flex;
+}
+.side {
+    margin-top: 1%;
+    padding: 2%;
+}
+
   .side h2{padding: 5%;}
   .side li{margin:0;}
+
+  .recipe-text {
+      margin-top: 3%;
+  }
+
+  .recipe-text li {
+    font-size: 90%;
+    padding: 1% 1%;
+    line-height: 1.5;}
+    .recipe-text li:first-child {
+    padding: 0 1%;
+    }
 
 a{
       width: 100%;
