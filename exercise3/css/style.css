@@ -1,0 +1,145 @@
+
+body{background: #F6F6F6;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {padding: 5% 0;}
+
+.header-right{direction: column;
+float: right;
+margin: 10px 0;}
+
+.header-right p{font-size:10px;}
+
+.logo {left:0;
+padding: 1%;
+}
+
+.tel p{font-size: 200%;
+margin: 20px 0 10px 0;}
+
+.time{border:solid 1px gray;
+padding: 5px;
+text-align: center;}
+
+.time span{color: red;}
+
+.top-nav ul{display: flex;
+width: 100%;
+float: left;
+margin: 1% 0;}
+
+.top-nav li{padding: 2% 6%;
+background-color: #70C8C6;
+color: white;
+text-align: center;
+border-right: solid 1px gray;
+}
+
+.top-page{border-radius: 10px 0 0 10px / 10px 0 0 10px;}
+  .access{border-radius: 0 10px 10px 0 / 0 10px 10px 0;}
+
+.container{display: flex;
+width: 85%;}
+
+.main {
+  background: white;
+  margin:2% 0 0 2%;
+  width: 100%;
+direction: column;
+}
+.side {
+  margin-top: 3%;
+  width: 100%;}
+
+.side1{margin-bottom: 10%;
+border-right:solid 1px #70C8C6;
+border-left:solid 1px #70C8C6;
+}
+
+.side h2{color: white;
+  font-size: 16px;
+  padding: 5%;
+  background: #70C8C6;
+  border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+
+}
+.side li{padding: 7%;
+border-bottom:solid 1px #70C8C6;
+margin-right: 5%;}
+
+.space {width: 100%;}
+
+.article{width: 92%;}
+
+.article h1{
+  font-weight: bold;
+  width: 100%;
+  padding: 3% 0;
+  border-bottom: solid 3px #70C8C6;
+}
+
+.article li{display: flex;
+  font-size: 13px;
+  padding: 3%;
+  border-bottom:dotted 1px #C0C0C0;
+}
+
+.article span{width: 40%;
+  font-weight: bold;
+  padding: 1%;
+}
+
+footer {direction: column;}
+
+.foot-nav ul{display: flex;
+background: #70C8C6;
+width: 100%;
+float: left;}
+.foot-nav li{color: white;
+  padding: 1% 2%;}
+
+.foot-nav li::before{content:"◎"}
+.foot-text span{font-weight: bold;}
+
+.foot-text {text-align: right;
+font-size: 13px;
+  border-bottom: solid 2px #70C8C6;
+  line-height: 50px;}
+
+.small{text-align: center;
+font-size: 12px;
+margin:2%;
+color: gray;
+}
+
+@media (max-width: 600px){
+  header , .top-nav ul , .container , .side , .foot-nav ul , .foot-text span{display: block;
+    direction: column;}
+
+.top-nav ul , .header-right{float: none;}
+
+header{text-align: center;}
+
+.top-nav ul{width:50%;}
+
+.top-nav li{border-radius:10px;
+padding: 10% 5%;}
+
+.right-text{margin: 3%;}
+
+.time{margin: -5% 10% 3% 10%;}
+
+.tel p{margin: 0;
+font-size: 100%;}
+
+ .container , .main-img , .side{width: 100%;}
+
+.main{order: 1;}
+.side{order:2;}
+
+.foot-nav li{padding: 3%;}
+
+
+}
