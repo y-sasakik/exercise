@@ -121,7 +121,7 @@ color: gray;
   header , .side , .foot-text span{display: block;
     direction: column;}
 
-.container{flex-wrap: wrap-reverse;}
+.container{flex-direction: column-reverse;}
 
 .top-nav ul , .header-right{float: none;}
 
