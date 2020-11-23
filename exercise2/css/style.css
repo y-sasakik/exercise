@@ -24,11 +24,14 @@ margin: 5% 5% 5% 10%;}
 margin-left: 18%;
 width:100%;}
 
-.page-header ul{vertical-align: middle;
+.header ul{vertical-align: middle;
   display: flex;
 margin: 8% 10% 5% 15%;
 list-style: none;
 }
+
+.nav2 {  opacity: 0;
+        visibility: hidden;}
 
   .nav_menu_li {margin: 3%;}
 
@@ -153,8 +156,7 @@ margin: 0 0 7% 0;}
 
 nav {  opacity: 0;
         visibility: hidden;
-        transition: opacity .5s
- }
+        transition: opacity .5s}
 
     .nav.show { opacity: 1;
       position:fixed;
@@ -164,12 +166,13 @@ text-align: center;}
 
 .main-content.show{opacity: 0.1;}
 
-.nav_toggle.show i{visibility: visible;}
+.nav_toggle.show i{visibility: visible;
+}
 
     .nav_menu.show{ flex-direction: column;
-    visibility: visible;
+    visibility: visible;}
 
- }
+
     .nav_menu.show li{margin: 10%;
     }
 
