@@ -4,18 +4,18 @@ $(function(){
 
 
   $('.nav_toggle').on('click', function () {
-      $('.nav_toggle, .nav, .nav_menu, .main-content, .nav_menu_li ').toggleClass('show');
+      $('.nav_toggle, .nav, .nav_menu, .main-content').toggleClass('show');
   });
 
 
 
 
-$(".nav_menu_li_home").mouseover(function() {
+$(".home a").mouseover(function() {
 
   $(".hover").css('visibility','visible');
 
 });
-$(".nav_menu_li_home").mouseout(function() {
+$(".home a").mouseout(function() {
 
   $(".hover").css('visibility','hidden');
 
@@ -25,12 +25,12 @@ $(".nav_menu_li_home").mouseout(function() {
 
 $(".page a").mouseover(function() {
 
-  $(".page_hover li").css('visibility','visible');
+  $(".hover2").css('visibility','visible');
 
 });
 $(".page a").mouseout(function() {
 
-  $(".page_hover li").css('visibility','hidden');
+  $(".hover2").css('visibility','hidden');
 
 });
 
