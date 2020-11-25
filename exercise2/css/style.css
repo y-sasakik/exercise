@@ -30,10 +30,29 @@ margin: 8% 10% 5% 15%;
 list-style: none;
 }
 
+.hover{visibility: hidden;
+position: relative;
+top:40%;
+left: -30%;
+border: solid 1px gray;
+width: 100%;
+padding: 8%;}
+.page_hover li{visibility: hidden;
+position: relative;
+top:100%;
+left: -8%;
+border: solid 1px gray;
+width: 100%;
+padding: 8%;}
+
 .nav2 {  opacity: 0;
         visibility: hidden;}
 
   .nav_menu_li {margin: 3%;}
+.nav_menu_li_home a{position: relative; top: 20px;
+  right: -30%;
+margin: 0;
+text-decoration: none;}
 
     .nav_menu_li a{color:#111111;
       font-weight: 400;
@@ -154,6 +173,11 @@ margin: 0 0 7% 0;}
         transform: translateY(-12px) rotate(45deg);
     }
 
+
+
+.hover , .page_hover li{visibility:visible;
+border:none;}
+
 nav {  opacity: 0;
         visibility: hidden;
         transition: opacity .5s}
@@ -174,6 +198,7 @@ text-align: center;}
 
 
     .nav_menu.show li{margin: 10%;
+
     }
 
 .nav_menu_li.show a{font-size: 130%;}
