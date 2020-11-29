@@ -20,7 +20,7 @@ background:#3f2a14;}
 margin: 10%;
 color:#3f2a14;
 opacity:0;
- transition:all 3s ease;}
+ transition:all 3s ease-in;}
 
 .side1 , .side2{padding:10% 20%;}
 
@@ -49,8 +49,9 @@ color: white;
 
 header h1{font-size:200%;}
   .main-content1 p{font-size: 150%;
-  margin: 5%;}
-  
+  margin: 5%;
+ transition:all 1s ease-in;}
+
 .side1 , .side2{padding:5%;}
 
 .main-content2 img{  width:250px; height:250px;}
