@@ -47,6 +47,12 @@ color: white;
 .side1{border-right: none;
   border-bottom: solid #3f2a14 5px;}
 
+header h1{font-size:200%;}
+  .main-content1 p{font-size: 150%;
+  margin: 5%;}
+  
+.side1 , .side2{padding:5%;}
+
 .main-content2 img{  width:250px; height:250px;}
 
 }
