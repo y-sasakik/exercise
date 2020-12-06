@@ -86,11 +86,13 @@ border-bottom: solid 3px gray;}
 .voice ul{display: flex;}
 .voice li{display: block;
 margin: 5%;}
-
+.voice p{font-size:110%;
+color: blue;}
 .voice img{border-radius: 50%;
-width: 300px;
-height: 300px;}
-.voice h2{font-size: 150%;}
+width: 200px;
+height: 200px;}
+.voice h2{font-size: 140%;
+color: red;}
 
 .spec table{width: 100%;
 border-collapse:  collapse; }
