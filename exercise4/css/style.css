@@ -18,6 +18,7 @@ font-size: 150%;
 border: solid 3px gray;
 background: skyblue;
 color: #51361a;
+    padding: 2% 5%;
 }
 
 .global{display: flex;
@@ -135,7 +136,7 @@ font-size: 200%;
 padding: 1% 10%;
 }
 
-.buy{top:0;}
+.buy{top:30%;}
 
 
 }
