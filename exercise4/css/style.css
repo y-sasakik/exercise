@@ -45,12 +45,14 @@ font-size: 130%;}
    background: skyblue;
    color: #51361a;
    margin: 3% auto;
+   padding: 3%;
 border-radius: 10%;
 border: solid #51361a 3px;}
 
 .function p{font-size: 150%;}
 
-.function h1{font-size: 250%;}
+.function h1{font-size: 200%;
+border-bottom: solid  #51361a 3px;}
 
 /*
 .voice h1{font-size: 200%;
