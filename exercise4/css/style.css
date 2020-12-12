@@ -37,12 +37,9 @@ padding: 30%;}
   padding:3%;
 background:#51361a;
 color: white;
+font-size: 120%;
 border: solid  5px gray;
 border-radius: 20%;}
-.concept h2{font-size: 120%;
-font-weight: bold;
-border-bottom: solid 2px gray;
-}
 
 
 
@@ -54,8 +51,7 @@ color: white;}
 
 .function p{font-size: 150%;}
 
-.function h1{font-size: 250%;
-border-bottom: solid 2px gray;}
+.function h1{font-size: 250%;}
 
 /*
 .voice h1{font-size: 200%;
