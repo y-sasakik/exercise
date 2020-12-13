@@ -56,17 +56,17 @@ padding: 2%;}
 border-bottom: solid  white 3px;}
 .lineup h1{font-size: 200%;
     padding: 3% 0;}
-    
+
 .lineup{width: 50%;
    background:#51361a;
    color: white;
    margin: 5% auto;
  border-radius: 5%;}
 
-.lineup ul{display: flex;  flex-wrap: wrap;}
+.lineup ul{display: flex;}
 .lineup li{
   font-size:130%;
-  padding: 10%;
+  padding: 4%;
  border-radius: 5%;
  border: solid  white 3px;}
 
