@@ -2,12 +2,6 @@ body{margin: 0 auto;
 text-align: center;
 -webkit-print-color-adjust: exact;}
 
-/*header {
-background-image: url(../img/mame.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-} */
-
 
 
 
@@ -130,7 +124,7 @@ padding: 3%;}
 .concept, .function{margin-top:10%;}
 
 .lineup{padding: 5%;}
-
+.lineup li{padding: 8%;}
 .link a{
 font-size: 200%;
 padding: 1% 10%;
