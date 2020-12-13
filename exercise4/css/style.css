@@ -24,12 +24,13 @@ padding: 30%;}
 .main-visual img {width: 50%;
   height:50%;}
 
-.main-content{display: flex;}
+.main-content{display: flex;
+padding: 3%;}
 
 .concept{background:#51361a;
 width: 40%;
 color: white;
-margin: 3% auto;
+margin: 0 auto;
 border-radius: 5%;}
 
 .concept h1{  font-size: 200%;
@@ -44,7 +45,7 @@ font-size: 130%;}
 .function{ width: 40%;
    background:#51361a;
    color: white;
-   margin: 3% auto;
+   margin: 0 auto;
 border-radius: 10%;}
 
 .function li{font-size: 150%;
@@ -111,6 +112,7 @@ margin: 1%;}
 .title h1{font-size: 200%;
 padding: 3%;}
 
+.concept, .function{margin-top:10%;}
 
 .link a{
 font-size: 200%;
