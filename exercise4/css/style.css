@@ -41,7 +41,7 @@ border-bottom: solid #072a7b 3px; }
 
 .spec table{width: 100%;
 border-collapse:  collapse; }
-.spec th,td {border: solid 3px #072a7b;
+.spec th,td {border: solid 3px blue;
 padding: 3%;
 text-align: center;}
 .spec {margin:10%;}
