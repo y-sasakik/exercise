@@ -24,15 +24,18 @@ font-weight: bold;
 margin: 2% 41%;
 border-bottom: solid #072a7b 3px; }
 
+.lineup h2{font-size: 130%;}
+
 .lineup ul{display: flex;}
 
 .lineup li{display: block;
-  font-size:130%;
-  padding: 1%;
+  padding: 3%;
   width:100%;
   color: blue;
  border-radius: 5%;
  border: solid blue 3px;}
+
+.lineup p{font-size:100%;}
 
 .lineup img {width:100%; height: 75%;}
 
@@ -41,20 +44,23 @@ border-bottom: solid #072a7b 3px; }
 
 .spec table{width: 100%;
 border-collapse:  collapse; }
-.spec th,td {border: solid 3px blue;
+.spec th,td {border: solid 3px gray;
 padding: 3%;
 text-align: center;}
 .spec {margin:10%;}
 
 .spec h1{font-size: 200%;
-  color:#072a7b;}
+  color:gray;}
 
+.spec h2{font-size: 150%;
+color: blue;
+font-weight: bold;}
 
 .link {margin: 10% 0;}
-.link a{color: white;
+.link a{color: gold;
 font-size: 200%;
-border-radius: 50%;
-background: #072a7b;
+border-radius: 20%;
+background: blue;
 padding: 2% 25%;
 text-decoration: none;}
 
